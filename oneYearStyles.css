@@ -1,0 +1,71 @@
+.nav-bar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s    ;
+
+}
+
+.navTitle{
+    color: white;
+    display: flex;
+    margin-left: 50px;
+   align-items: center;
+   font-size: 1.35em;
+   font-family: "Jost"
+   
+   
+}
+
+nav li{
+    display: inline-block;
+    font-size: 1.35em;
+   
+
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  
+    font-family: Jost;
+    padding-left:  5px;
+    margin-right: 50px;
+    
+}
+
+body{
+    background-image: url("./photos/unnamed.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.picture-container{
+
+    margin-top: 850px;
+    background-color: white;
+    height: 1000px;
+    
+
+}
+
+#pictures{
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+
+}
+
